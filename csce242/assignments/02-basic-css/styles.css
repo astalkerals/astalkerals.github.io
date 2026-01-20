@@ -1,0 +1,25 @@
+body {
+    background:#6A9FF7;
+}
+
+h1{
+    color: #9D7AFA;
+    font-style: bold;
+}
+
+h2{
+    color: blanchedalmond;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th,
+td{
+    border: 1px solid #276753;
+    padding: 4px;
+}
+th{
+    background: #485092;
+}
