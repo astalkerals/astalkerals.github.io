@@ -1,5 +1,12 @@
 body {
+    background: url(images/crayonbackground.jpg);
+}
+
+#content{
     background:#476ad1;
+    width: 70%;
+    margin: auto;
+    padding: 0 5px;
 }
 
 h1{
