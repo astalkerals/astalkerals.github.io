@@ -1,14 +1,18 @@
 body {
-    background:#7EAEFA;
+    background:#476ad1;
 }
 
 h1{
-    color: #8944F9;
+    color: #BFA9F5;
     font-style: bold;
 }
 
 h2{
-    color: blanchedalmond;
+    color: #F5EFA9;
+}
+
+p{
+    color: white;
 }
 
 table{
