@@ -1,6 +1,6 @@
 body {
     font-family: "Courier New", "Times New Roman", monospace;
-    background: url(images/crayonbackground.jpg);
+    background: url(images/crayonbackground2.jpg);
 }
 
 #content{
@@ -8,6 +8,7 @@ body {
     width: 70%;
     margin: auto;
     padding: 3 8px;
+    border-radius: 5px;
 }
 
 h1{
