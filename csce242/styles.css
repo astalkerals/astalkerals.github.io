@@ -8,10 +8,11 @@ body{
     margin:auto;
     padding: 8px 15px;
     background:#478F52;
+    border-radius: 5px;
 }
 
 h1, h2{
-    color: #90A1E0;
+    color: #BAC7FF;
 }
 
 p{
