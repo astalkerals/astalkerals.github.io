@@ -1,6 +1,6 @@
 body{
     font-family: "Courier New", "Times New Roman", monospace;
-    background: #73788B;
+    background: #B9C0DC;
 }
 
 #content{
@@ -20,6 +20,9 @@ p{
 
 a{
     color: white;
-    background-color:#E090A3;
     text-decoration: none;
+}
+
+ol{
+    color: white;
 }
