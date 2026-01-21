@@ -6,13 +6,20 @@ body{
 #content{
     width: 70%;
     margin:auto;
-    background: #90A1E0;
+    padding: 5px;
+    background:#478F52;
 }
 
 h1, h2{
-    color:#478F52;
+    color: #90A1E0;
 }
 
 p{
     color:white;
+}
+
+a{
+    color: white;
+    background-color:#E090A3;
+    text-decoration: none;
 }
