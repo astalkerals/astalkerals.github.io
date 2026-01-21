@@ -1,0 +1,18 @@
+body{
+    font-family: "Courier New", "Times New Roman", monospace;
+    background: #73788B;
+}
+
+#content{
+    width: 70%;
+    margin:auto;
+    background: #90A1E0;
+}
+
+h1, h2{
+    color:#478F52;
+}
+
+p{
+    color:white;
+}
