@@ -37,3 +37,8 @@ th{
     background: #BFA9F5;
     color: #476ad1;
 }
+
+img{
+    border:5px solid #BFA9F5;
+    border-radius: 5px;
+}
