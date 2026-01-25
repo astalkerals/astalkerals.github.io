@@ -30,6 +30,10 @@ body{
     color: #EFECE3;
 }
 
+#gallery{
+    padding-left: 50%;
+}
+
 @media (min-width: 768px){
     .columns{
         display:flex;
