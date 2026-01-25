@@ -10,8 +10,9 @@ body{
     background: #EFECE3;
 }
 
-#main-header{
-    background: #EFECE3;
+#main-header h1{
+    color:#4A70A9;
+    text-align: center;
 }
 
 #main-nav ul{
