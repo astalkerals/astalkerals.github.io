@@ -43,14 +43,14 @@ body{
 }
 
 #first-row{
-    padding: 30%;
+    padding: 10%;
     margin: auto;
     background:#4A70A9;
     color: #EFECE3;
 }
 
 #first-row section p{
-    padding: 5px;
+    padding: 0px;
 }
 
 @media (min-width: 768px){
