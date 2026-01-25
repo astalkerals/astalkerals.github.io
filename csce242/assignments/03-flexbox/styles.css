@@ -36,11 +36,21 @@ body{
     padding-left: 50%;
 }
 
+#gallery h1{
+    color: #EFECE3;
+    background-color: #4A70A9;
+    text-align: center;
+}
+
 #first-row{
-    padding-left: 30%;
+    padding: 30%;
     margin: auto;
     background:#4A70A9;
     color: #EFECE3;
+}
+
+#first-row p{
+    padding: 5px;
 }
 
 @media (min-width: 768px){
