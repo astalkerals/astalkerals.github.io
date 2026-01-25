@@ -22,9 +22,12 @@ body{
 #main-nav li{
     list-style-type: none;
     background: #4A70A9;
+    border-width:1px;
+    border-color:#EFECE3;
     padding: 5px;
     border-bottom: 1px solid #8FABD4;
     width: 80%;
+    text-align: center;
 }
 
 #main-nav a{
@@ -42,11 +45,18 @@ body{
     text-align: center;
 }
 
-#first-row{
+#first-row, #third-row{
     padding: 0% 20%;
     margin: auto;
     background:#4A70A9;
     color: #EFECE3;
+}
+
+#second-row{
+    padding: 0% 20%;
+    margin: auto;
+    background: #8FABD4;
+    color: #4A70A9;
 }
 
 #first-row section p{
