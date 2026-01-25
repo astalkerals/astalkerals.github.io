@@ -36,21 +36,21 @@ body{
     padding-left: 50%;
 }
 
-#gallery section h1{
+#gallery section h3{
     color: #EFECE3;
     background-color: #4A70A9;
     text-align: center;
 }
 
 #first-row{
-    padding: 10%;
+    padding: 0% 20%;
     margin: auto;
     background:#4A70A9;
     color: #EFECE3;
 }
 
 #first-row section p{
-    padding: 0px;
+    padding: 5px;
 }
 
 @media (min-width: 768px){
