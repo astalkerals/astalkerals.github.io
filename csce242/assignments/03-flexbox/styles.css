@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #8FABD4;
+}
+
+#content{
+    width: 80%;
+    margin: auto;
+    padding: 5px 10px;
+}
+
+#main-header{
+    background: #EFECE3;
+}
+
+#main-nav li{
+    list-style-type: none;
+    background: #4A70A9;
+    padding: 5px;
+    border-bottom: 1px solid #8FABD4;
+}
+
+#main-nav a{
+    text-decoration: none;
+}
