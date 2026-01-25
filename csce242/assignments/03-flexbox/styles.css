@@ -43,7 +43,6 @@ body{
     color: #EFECE3;
     background-color: #4A70A9;
     text-align: center;
-    padding: 3px;
 }
 
 #first-row, #third-row{
@@ -60,7 +59,7 @@ body{
     color: #000000;
 }
 
-#first-row section p{
+#first-row, #second-row, #thirdrow section p{
     padding: 5px;
 }
 
@@ -72,6 +71,7 @@ body{
 @media (min-width: 768px){
     .columns{
         display:flex;
+        gap: 5px;
     }
 
     .one{
