@@ -33,9 +33,9 @@ ol{
 }
 
 #gallery section{
-    background-color:#BAC7FF;
+    background-color:#B9C0DC;
     color:#478F52;
-    padding: 10px;
+    padding-left: 10px;
 }
 
 @media (min-width: 768px){
