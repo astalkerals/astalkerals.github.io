@@ -50,7 +50,8 @@ ol{
 #projects{
     background-color:#B9C0DC;
     color:#478F52;
-    padding-left: 10px;
+    padding: 8px;
+    margin: 5px;
 }
 
 #projects p{
