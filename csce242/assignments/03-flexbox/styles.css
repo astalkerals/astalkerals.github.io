@@ -20,6 +20,10 @@ body{
     padding-left:0;
 }
 
+#main-content{
+    padding: 5px;
+}
+
 #main-nav li{
     list-style-type: none;
     background: #4A70A9;
