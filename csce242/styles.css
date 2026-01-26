@@ -69,3 +69,9 @@ ol{
         flex:4;
     }
 }
+
+@media (max-width: 766px){
+    .columns{
+        flex-direction: column;
+    }
+}
