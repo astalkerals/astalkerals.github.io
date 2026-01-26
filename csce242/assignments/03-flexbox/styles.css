@@ -47,8 +47,9 @@ body{
     padding: 3px;
 }
 
-#gallery{
-    margin: auto;
+#gallery img{
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #first-row, #third-row{
