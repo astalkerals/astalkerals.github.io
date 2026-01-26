@@ -38,6 +38,16 @@ ol{
     padding-left: 10px;
 }
 
+#gallery p{
+    color: black;
+}
+
+#projects{
+    background-color:#B9C0DC;
+    color:#478F52;
+    padding-left: 10px;
+}
+
 @media (min-width: 768px){
     .columns{
         display:flex;
