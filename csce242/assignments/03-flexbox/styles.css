@@ -47,6 +47,10 @@ body{
     padding: 3px;
 }
 
+#gallery{
+    margin: auto;
+}
+
 #first-row, #third-row{
     padding: 0% 20%;
     margin: auto;
