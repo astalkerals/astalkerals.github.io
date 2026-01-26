@@ -48,6 +48,10 @@ ol{
     padding-left: 10px;
 }
 
+#projects p{
+    color: black;
+}
+
 @media (min-width: 768px){
     .columns{
         display:flex;
