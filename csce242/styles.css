@@ -31,3 +31,8 @@ a:hover{
 ol{
     color: white;
 }
+
+#gallery section{
+    background-color:#BAC7FF;
+    color:#478F52;
+}
