@@ -63,8 +63,8 @@ body{
     margin: auto;
     background:#4A70A9;
     color: #EFECE3;
-    border-width: 3px;
-    border-color: #EFECE3;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 #second-row{
