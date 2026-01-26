@@ -11,6 +11,10 @@ body{
     border-radius: 5px;
 }
 
+#main-content{
+    padding: 0px 6px;
+}
+
 h1, h2{
     color: #BAC7FF;
 }
