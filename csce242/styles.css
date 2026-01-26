@@ -72,6 +72,6 @@ ol{
 
 @media (max-width: 766px){
     .columns{
-        flex-direction: row;
+        flex-direction: column;
     }
 }
