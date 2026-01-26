@@ -71,7 +71,8 @@ ol{
 }
 
 @media (max-width: 766px){
-    .container {
-            flex-direction: column; 
-        }
+    .columns {
+        display:flex;    
+        flex-direction: column; 
+    }
 }
