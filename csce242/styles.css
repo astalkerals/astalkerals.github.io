@@ -62,6 +62,10 @@ ol{
     color: black;
 }
 
+#projects h3{
+    text-align: center;
+}
+
 @media (min-width: 768px){
     .columns{
         display:flex;
