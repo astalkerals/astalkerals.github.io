@@ -17,21 +17,21 @@
     position: absolute;
     top: 50%;
     left: 60%;
-    transform: translate(-15%, 355%);
+    transform: translate(-15%, 340%);
 }
 
 #opportunities{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-89%, 895%);
+    transform: translate(-89%, 875%);
 }
 
 #cai{
     position: absolute;
     top: 50%;
     left: 70%;
-    transform: translate(-215%, 1295%)
+    transform: translate(-215%, 1275%)
 }
 
 .text a{
@@ -446,7 +446,7 @@
     left: .48%;
     right: .48%;
     z-index: 99999;
-}
+    }
 }
 
 @media (max-width: 766px){
