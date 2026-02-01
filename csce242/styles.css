@@ -36,6 +36,10 @@ ol{
     color: white;
 }
 
+#gallery{
+    width: 70%;
+}
+
 #gallery section{
     background-color:#B9C0DC;
     color:#478F52;
