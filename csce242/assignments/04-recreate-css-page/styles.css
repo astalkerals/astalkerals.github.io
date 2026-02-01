@@ -7,14 +7,6 @@
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.nav{
-    position: fixed;
-    top: 0%;
-    left: .48%;
-    right: .48%;
-    z-index: 99999;
-}
-
 #padding{
     background: black;
     color: black;
@@ -447,6 +439,14 @@
     #way-bottom ul{
         display: flex;
     }
+
+    .nav{
+    position: fixed;
+    top: 0%;
+    left: .48%;
+    right: .48%;
+    z-index: 99999;
+}
 }
 
 @media (max-width: 766px){
