@@ -454,6 +454,8 @@
     .columns {
         display:flex;    
         flex-direction: column;
-        justify-content:center;
+    }
+    body{
+        justify-content: center;
     }
 }
