@@ -59,6 +59,11 @@ ol{
     margin: 5px;
 }
 
+#projects img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #projects section{
     padding: 8px;
 }
