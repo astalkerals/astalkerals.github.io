@@ -465,9 +465,4 @@
     #way-bottom ul{
         display: flex;
     }
-    #main-nav{
-        position: fixed;
-        top: 0%;
-        z-index: 99999;
-    }
 }
