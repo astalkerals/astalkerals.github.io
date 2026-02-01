@@ -7,12 +7,6 @@
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#padding{
-    background: black;
-    color: black;
-    padding: 50px;
-}
-
 .text a{
     background: black;
     color: white;
@@ -448,6 +442,13 @@
         transform: translate(-215%, 1275%)
     }
 
+    #padding{
+        background: black;
+        color: black;
+        padding: 50px;
+    }
+
+
 }
 
 @media (max-width: 766px){
@@ -463,5 +464,10 @@
     }
     #way-bottom ul{
         display: flex;
+    }
+    #main-nav{
+        position: fixed;
+        top: 0%;
+        z-index: 99999;
     }
 }
