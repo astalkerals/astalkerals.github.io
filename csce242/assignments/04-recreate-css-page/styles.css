@@ -458,4 +458,10 @@
     body{
         justify-content: center;
     }
+    #secondary-nav ul{
+        display: flex;
+    }
+    #way-bottom ul{
+        display: flex;
+    }
 }
