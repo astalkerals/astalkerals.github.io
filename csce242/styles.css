@@ -76,6 +76,12 @@ ol{
     text-align: center;
 }
 
+#projects a{
+    text-decoration: none;
+    color: black;
+    font-family:'Courier New', Courier, monospace;
+}
+
 @media (min-width: 768px){
     .columns{
         display:flex;
