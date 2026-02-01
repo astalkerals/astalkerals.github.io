@@ -75,9 +75,6 @@ ol{
         flex:3;
     }
 
-    .four{
-        flex:4;
-    }
 }
 
 @media (max-width: 766px){
