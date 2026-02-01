@@ -21,6 +21,8 @@
     background: black;
     color: white;
     margin-top:0;
+    margin-bottom:0;
+    padding-bottom:0px;
 }
 
 #top{
@@ -66,7 +68,7 @@
     background: #760009;
     padding-left:45%;
     margin-bottom: 0;
-    padding-bottom: 0;
+    padding-bottom: 0px;
 }
 
 #main-nav ul{
@@ -459,10 +461,19 @@
     body{
         justify-content: center;
     }
+
+    #main-nav{
+        text-align: center;
+    }
+
     #secondary-nav ul{
         display: flex;
     }
     #way-bottom ul{
         display: flex;
+    }
+
+    #padding{
+        color: white;
     }
 }
