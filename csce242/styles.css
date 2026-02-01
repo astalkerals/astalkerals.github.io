@@ -37,8 +37,8 @@ ol{
 }
 
 #gallery{
-    width: 70%;
-    margin: auto;
+    margin-left:15%;
+    margin-right:15%;
 }
 
 #gallery section{
@@ -57,6 +57,10 @@ ol{
     color:#478F52;
     padding: 8px;
     margin: 5px;
+}
+
+#projects section{
+    padding: 8px;
 }
 
 #projects p{
