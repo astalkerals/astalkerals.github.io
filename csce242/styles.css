@@ -37,8 +37,7 @@ ol{
 }
 
 #gallery{
-    margin-left:auto;
-    margin-right:auto;
+
 }
 
 #gallery section{
@@ -57,11 +56,6 @@ ol{
     color:#478F52;
     padding: 8px;
     margin: 5px;
-}
-
-#projects img{
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #projects section{
@@ -86,6 +80,7 @@ ol{
 @media (min-width: 768px){
     .columns{
         display:flex;
+        flex-wrap:wrap;
     }
 
     .one{
