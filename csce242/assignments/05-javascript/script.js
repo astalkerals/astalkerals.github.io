@@ -1,0 +1,4 @@
+/* alert
+onload
+function
+*/
