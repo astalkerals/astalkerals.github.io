@@ -60,8 +60,19 @@
     padding-bottom: 0;
 }
 
+#gallery p{
+    color: #405399;
+}
+
 @media (min-width: 768px){
     .columns{
         display:flex;
+    }
+}
+
+@media (max-width: 768px){
+    .columns{
+        display:flex;
+        flex-direction: column;
     }
 }
