@@ -1,3 +1,23 @@
+.triangle{
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 80px solid #EDE89A;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}
+
+.triangle.see{
+    display: block;
+}
+
+.frame{
+    border: 5px solid red;
+}
+
 #main{
     background: #EDE89A;
     text-align: center;
@@ -24,16 +44,20 @@
 
 #gallery section{
     background: #A0AEE6;
-    margin: 40px;
-    padding-top:8px;
-    padding-bottom: 100px;
-    padding-left:40px;
-    padding-right: 40px;
+    margin: 30px;
+    width: 400px;
+    height: 180px;
     border: 1px solid #405399;
+}
+
+#gallery img{
+    margin: auto;
+    padding-top: 0;
 }
 
 #gallery h4{
     color: #405399;
+    padding-bottom: 0;
 }
 
 @media (min-width: 768px){
