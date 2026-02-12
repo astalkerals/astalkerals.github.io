@@ -1,0 +1,28 @@
+body{
+    background: #793849;
+    text-align: center;
+}
+
+body h1{
+    color:antiquewhite;
+}
+
+body h3{
+    color:blue;
+}
+
+body p{
+    color:aqua;
+}
+
+body a{
+    text-decoration: none;
+    color:aqua;
+}
+
+#box{
+    width: 95%;
+    background: grey;
+    margin: auto;
+    padding: 10px;
+}

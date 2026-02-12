@@ -1,0 +1,104 @@
+:root{
+    --main-background: lightsteelblue;
+    --main-headers: lightpink;
+}
+
+body{
+    background:var(--main-background);
+}
+#content{
+    background:var(--main-headers);
+}
+
+#gallery{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#gallery section{
+    background-color:white;
+    width: 20%;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#p-date{
+    top: 10px;
+    color: white;
+}
+
+#main-header{
+    background:var(--main-headers);
+    text-align: center;
+}
+
+#toggle-nav div{
+    width:25px;
+    height: 2px;
+    background-color: darkslateblue;
+    margin: 6px 0;
+}
+
+button:disabled{
+    background: gray;
+}
+
+@media (min-width: 768px){
+    .columns{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    #toggle-nav{
+        display: none;
+    }
+    .hide-small {
+        display:flex;
+    }
+}
+
+@media (max-width: 768px){
+    .hide-small {
+        display:none;
+    }
+}
+
+
+@keyframes bounce{
+    0%{
+        background: magenta;
+        top: 0px;
+    }
+    25%{
+        background: orange;
+    }
+    50%{
+        background: green;
+        top: 200px;
+    }
+    75%{
+        background: red;
+    }
+    100%{
+        background: pink;
+        top: 0px;
+    }
+}
+
+#ball{
+    width: 25px;
+    height: 25px;
+    background: magenta;
+    border-radius: 25px;
+    position: absolute;
+}
+
+.bounce{
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; 
+}
+
+#ball-playground{
+    position: relative;
+}
