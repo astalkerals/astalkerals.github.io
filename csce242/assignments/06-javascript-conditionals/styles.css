@@ -20,9 +20,35 @@ body a{
     color:aqua;
 }
 
-#box{
+body button{
+    background: white;
+    color: aqua;
+    border: transparent;
+}
+
+#e1, #e2{
     width: 95%;
     background: grey;
     margin: auto;
     padding: 10px;
+}
+
+.slider-container {
+    width: 150px;
+    margin: 20px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slider {
+    width: 100%;
+}
+
+.value-display {
+    font-size: large;
+    margin-top: 10px;
+}
+
+.hidden{
+    display: none;
 }

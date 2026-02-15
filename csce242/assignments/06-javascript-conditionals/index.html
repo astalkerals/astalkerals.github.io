@@ -7,11 +7,24 @@
         <h1> Assignment 8</h1>
         <h3> If Statements </h3>
         <p>
-            <a href="#">Exercise 1</a> | <a href="#">Exercise 2</a>
+            <button id="toggle-1">Exercise 1</button> | <button id="toggle-2">Exercise 2</button>
         </p>
-        <div id = "box">
+        <div id = "e1">
             <p>How many minutes until class?</p>
+        
+        <div class="slider-container">
+        <!-- Range slider -->
+        <input type="range" id="numberSlider" class="slider" min="0" max="60" step="1" value="30">
+        <!-- Display value -->
+        <div class="value-display"> <span id="sliderValue">30</span> Minutes </div>
         </div>
+        <p id = "commentary"></p>
+        </div>
+
+        <div id="e2" class="hidden">
+            <p>please do something</p>
+        </div>
+        <script src="script.js"></script>
         <p>@astalkerals</p>
     </body>
 </html>

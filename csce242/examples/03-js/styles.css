@@ -1,6 +1,7 @@
 :root{
     --main-background: lightsteelblue;
     --main-headers: lightpink;
+    --donation:0%;
 }
 
 body{
@@ -31,6 +32,10 @@ body{
 #main-header{
     background:var(--main-headers);
     text-align: center;
+}
+
+#main-header h1{
+    color: rgb(37, 37, 129);
 }
 
 #toggle-nav div{
@@ -101,4 +106,12 @@ button:disabled{
 
 #ball-playground{
     position: relative;
+}
+
+#thermometer{
+    width: 25%;
+    height: 200px;
+    margin-right: 10%;
+    border: 2px solid turquoise;
+    background:linear-gradient(0deg, red (--donation), red (--donation), white 50%);
 }
