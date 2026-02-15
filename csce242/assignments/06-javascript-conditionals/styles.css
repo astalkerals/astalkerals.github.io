@@ -1,36 +1,45 @@
 body{
-    background: #793849;
+    background: #E0BB55;
     text-align: center;
 }
 
 body h1{
-    color:antiquewhite;
+    color:#793849;
 }
 
 body h3{
-    color:blue;
+    color:#793849;
 }
 
 body p{
-    color:aqua;
+    color:#793849;
 }
 
 body a{
     text-decoration: none;
-    color:aqua;
+    color:#793849;
 }
 
 body button{
-    background: white;
-    color: aqua;
+    background: transparent;
+    color: #793849;
     border: transparent;
 }
 
 #e1, #e2{
     width: 95%;
-    background: grey;
+    background: #5575E0;
     margin: auto;
     padding: 10px;
+    color: white;
+}
+
+#e1 p, #e2 p{
+    color: white;
+}
+
+#e2 h3{
+    color: #E0BB55;
 }
 
 .slider-container {

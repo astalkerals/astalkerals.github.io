@@ -51,15 +51,11 @@ ol{
     color: black;
 }
 
-#projects{
+
+#projects section{ 
     background-color:#B9C0DC;
     color:#478F52;
-    padding: 8px;
-    margin: 5px;
-}
-
-#projects section{
-    padding: 8px;
+    padding: 8px 8px;
     margin: 5px;
 }
 
