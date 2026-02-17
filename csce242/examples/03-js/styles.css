@@ -19,7 +19,7 @@ body{
 #gallery section{
     background-color:white;
     width: 20%;
-    height: 200px;
+    min-height: 200px;
     padding: 10px;
     margin: 10px;
 }
@@ -113,5 +113,5 @@ button:disabled{
     height: 200px;
     margin-right: 10%;
     border: 2px solid turquoise;
-    background:linear-gradient(0deg, red (--donation), red (--donation), white 50%);
+    background:linear-gradient(0deg, red var(--donation), red var(--donation), white 100%);
 }

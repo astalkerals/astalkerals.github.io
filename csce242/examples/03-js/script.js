@@ -91,6 +91,7 @@ document.getElementById("btn-display-donation").onclick = () => {
 
     donation = parseInt(donationText);
     const percentGoal = donation/5000 * 100;
+    let percented = percentGoal + "%";
 
     document.getElementById("p-donation").innerHTML = `You've reached ${percentGoal}% of your goal.`;
 
@@ -102,6 +103,29 @@ document.getElementById("btn-first-loop").onclick = () => {
 
     for(let i = 0; i < 20; i++){
         const li = document.createElement("li");
-        li.innerHTML = "hi";
+        li.innerHTML = `I'm the ${i+1} element`;
+        ul.append(li);
     }
-}
+};
+
+document.getElementById("btn-count-range").onclick = () => {
+    const startNumber = parseInt(document.getElementById("txt-start").value);
+    const endNumber = parseInt(document.getElementById("txt-end").value)
+    const errorP = document.getElementById("error-range");
+    errorP.innerHTML = "";
+    divNumRange = document.getElementById("number-range");
+
+    if(startNumber > endNumber) {
+        errorP.innerHTML = "not a valid range";
+        return;
+    }
+
+    for(let i = startNumber; i < endNumber; i++){
+        const p = document.createElement("p");
+        p.innerHTML = i;
+        divNumRange.append(p);
+        p.onclick = () => {
+            document.getElementById("number-message").innerHTML = `You clicked the ${i}th item`;    
+        };
+    }
+};
