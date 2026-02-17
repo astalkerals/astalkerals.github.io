@@ -96,3 +96,12 @@ document.getElementById("btn-display-donation").onclick = () => {
 
     document.querySelector(":root").style.setProperty("--donation", percentGoal + "%");
 }
+
+document.getElementById("btn-first-loop").onclick = () => {
+    const ul = document.getElementById("ul-first-loop");
+
+    for(let i = 0; i < 20; i++){
+        const li = document.createElement("li");
+        li.innerHTML = "hi";
+    }
+}
