@@ -1,0 +1,32 @@
+#main-header{
+    justify-content: center;
+    text-align: center;
+}
+
+#basic-description{
+    width: 95%;
+    margin: auto;
+    padding: 10px 30px;
+    align-items:center;
+}
+
+#basic-description img{
+    width: 93%;
+}
+
+#basic-description h1{
+    padding-bottom: 0;
+}
+
+#basic-description p{
+    font-size: 110%;
+}
+
+#explanation{
+    width: 95%;
+    margin: auto;
+}
+
+#explanation li{
+    font-size: 110%;
+}

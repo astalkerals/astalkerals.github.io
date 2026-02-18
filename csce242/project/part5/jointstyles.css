@@ -1,0 +1,94 @@
+:root{
+    --caption-text: #7a1f1f;
+    --background-edges: #370e0e;
+    --caption-background: #f4e9e9;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    color: var(--caption-background);
+    background: var(--background-edges);
+}
+#content{
+    background-image: url("../homepage/images/ai-background-darker.png");
+    width: 80%;
+    margin: auto;
+    object-fit:contain;
+}
+
+nav ul {
+    list-style: none;
+    background: var(--caption-background);
+    padding: 10px 25px;
+    border-radius: 30px;
+}
+
+nav li {
+    margin: 0 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--caption-text);
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+.label {
+    padding-top: 0;
+    padding-bottom: 8px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+@media (min-width: 768px){
+    .columns{
+        display: flex;
+    }
+
+    #intro{
+        display: grid;
+    }
+    nav ul{
+        display: inline-flex;
+    }
+    .one{
+        flex:1;
+    }
+    .two{
+        flex:2;
+    }
+}
+
+@media(max-width: 1200px){
+    #content{
+        width: 100%;
+    }
+
+    .columns{
+        justify-content: center;
+    }
+
+    #intro{
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px){
+
+    .columns{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display:grid;
+    }
+    #intro img{
+        margin: 10px 0px;
+
+    }
+}
