@@ -1,0 +1,37 @@
+
+    nav ul {
+        display:flex;
+    }
+
+    nav li {
+        background:transparent;
+        flex:1;
+        text-align: center;
+    }
+
+    nav a {
+        border-bottom:1px solid transparent;
+    }
+
+    nav a:hover {
+        border-bottom:1px solid white;
+    }
+
+    nav li:not(:last-child) {
+        border-bottom:none;
+    }
+
+    #toggle-nav {
+        display:none;
+    }
+
+    .hide-small {
+        display:flex;
+    }
+
+.arrow{
+    font-size:3em;
+    display:block;
+    text-decoration:none;
+    font-weight: 600;
+}

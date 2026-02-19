@@ -113,5 +113,18 @@ button:disabled{
     height: 200px;
     margin-right: 10%;
     border: 2px solid turquoise;
-    background:linear-gradient(0deg, red var(--donation), red var(--donation), white 100%);
+    background:linear-gradient(0deg, red var(--donation) 50%, red var(--donation) 50%, white 100%);
+}
+
+table{
+    border-collapse: collapse;
+}
+table th, table td{
+    padding: 5px;
+    border: 1px solid darkslategrey;
+}
+
+table th{
+    background-color: #390594;
+    color: white;
 }
