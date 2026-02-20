@@ -1,0 +1,119 @@
+:root{
+    --caption-text: #7a1f1f;
+    --background-edges: #370e0e;
+    --caption-background: #f4e9e9;
+}
+
+#main-header{
+    text-align:center;
+}
+
+#questions{
+    width: 90%;
+    margin: auto;
+}
+
+body p{
+    font-size: large;
+}
+
+body h2{
+    text-align: center;
+}
+
+.label{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    box-sizing:border-box;
+    background:var(--caption-background);
+    text-align: center;
+    width:100%;
+    margin: auto;
+    align-items:center;
+    padding-top:5px;
+}
+
+#gallery1 section {
+    border-radius: 20px;
+    overflow: hidden;
+    background: var(--caption-background);
+    color: var(--caption-text);
+    text-align: center;
+    margin: 10px;
+    max-height: 200px;
+    position:relative;
+}
+
+#gallery1 img{
+    width: 100%;
+}
+
+#other{
+    align-items: center;
+    text-align: center;
+}
+
+#other h3{
+    align-items: center;
+    padding-top: 25%;
+}
+
+#bigger img{
+    width: 110%;
+}
+
+#gallery2{
+    width: 50%;
+    margin: auto;
+}
+
+#gallery2 section {
+    border-radius: 20px;
+    overflow: hidden;
+    background: var(--caption-background);
+    color: var(--caption-text);
+    text-align: center;
+    margin: 10px;
+    max-height: 170px;
+    position:relative;
+}
+
+#gallery2 img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center bottom;
+    
+}
+
+#bigger2 img{
+    width: 113%;
+    object-position: center bottom;
+}
+
+#gallery3{
+    width: 85%;
+    margin: auto;
+}
+
+#gallery3 section {
+    border-radius: 20px;
+    overflow: hidden;
+    background: var(--caption-background);
+    color: var(--caption-text);
+    text-align: center;
+    margin: 10px;
+    max-height: 240px;
+    position:relative;
+}
+
+#gallery3 img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center bottom;
+    
+}
+
+#gallery3 a{
+    color:var(--caption-text);
+}
