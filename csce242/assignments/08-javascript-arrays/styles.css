@@ -1,5 +1,11 @@
 body{
     text-align: center;
+    background: #ABC2FF;
+    color:#4C63A5;
+}
+
+.dropdown{
+    display: none;
 }
 
 .show{
@@ -8,4 +14,33 @@ body{
 
 .hide{
     display: none;
+}
+
+#happyorsad{
+    height: 30px;
+    width: 70px;
+    border: 1px solid #6963ff;
+    padding: 5px;
+    background:#C7C0FF;
+    color:#6963ff;
+}
+
+#happy a, #sad a{
+    font-size: 110%;
+    text-decoration:underline;
+    line-height: 1.7;
+}
+
+#dropdown-options a{
+    align-items:center;
+    background:#c9c7ff;
+    display:inline-block;
+    height: 30px;
+    width: 70px;
+    box-sizing:border-box;
+    border: 1px solid #6963ff;
+    text-decoration: none;
+    color: #6963ff;
+    margin: 0;
+    padding-top:5px;
 }
