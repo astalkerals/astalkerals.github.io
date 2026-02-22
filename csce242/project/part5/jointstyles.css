@@ -4,6 +4,10 @@
     --caption-background: #f4e9e9;
 }
 
+header{
+    text-align: center;
+}
+
 body {
     font-family: 'Playfair Display', serif;
     color: var(--caption-background);

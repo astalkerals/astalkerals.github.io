@@ -51,3 +51,61 @@ body h2{
     object-fit: cover;
     object-position: center bottom;
 }
+
+#gallery2 section {
+    border-radius: 20px;
+    overflow: hidden;
+    background: var(--caption-background);
+    color: var(--caption-text);
+    text-align: center;
+    margin: 10px;
+    max-height: 260px;
+    position:relative;
+}
+
+#gallery2 img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center bottom;
+}
+
+#gallery2{
+    width: 95%;
+    margin: auto;
+}
+
+#content a{
+    text-decoration: none;
+}
+
+#gallery2 p{
+    padding-top: 27%;
+    color:var(--caption-text);
+}
+
+#gallery3 section {
+    border-radius: 20px;
+    overflow: hidden;
+    background: var(--caption-background);
+    color: var(--caption-text);
+    text-align: center;
+    margin: 10px;
+    max-height:400px;
+    position:relative;
+}
+
+#gallery3 img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center bottom;
+}
+
+#gallery3{
+    width: 95%;
+    margin: auto;
+}
+
+#gallery3 p{
+    color:var(--caption-text);
+    padding-top: 55%;
+}
