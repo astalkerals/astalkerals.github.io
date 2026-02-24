@@ -43,6 +43,7 @@ body h2{
     margin: 10px;
     max-height: 200px;
     position:relative;
+    aspect-ratio: 4/3;
 }
 
 #gallery1 img{
@@ -77,6 +78,7 @@ body h2{
     margin: 10px;
     max-height: 170px;
     position:relative;
+    aspect-ratio: 4/4;
 }
 
 #gallery2 img{
@@ -105,6 +107,7 @@ body h2{
     margin: 10px;
     max-height: 240px;
     position:relative;
+    aspect-ratio: 4/3;
 }
 
 #gallery3 img{
