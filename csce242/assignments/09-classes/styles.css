@@ -5,3 +5,54 @@ body{
 .hidden {
     display: none;
 }
+
+.visible {
+    display: block;
+}
+
+#songs section{
+    background: blue;
+    color: white;
+    text-align: center;
+    margin: 20px;
+}
+
+#songs a{
+    text-decoration: none;
+    color: white;
+}
+
+#songs img{
+    width: 100%;
+}
+
+#modal{
+    position: relative;
+    transform: translate(0%, -500%);
+    width: 50%;
+    margin: auto;
+    height: 200px;
+}
+
+#modal-text{
+    background: grey;
+    color: white;
+}
+
+#video{
+}
+
+@media(min-width: 768px){
+    .columns{
+        display: flex;
+    }
+    .one{
+        flex:1;
+    }
+    .two{
+        flex:2;
+    }
+    .three{
+        flex:3;
+    }
+}
