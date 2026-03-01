@@ -90,6 +90,7 @@ class Song {
         document.getElementById("x").onclick = () =>{ 
             hideModal();
             document.getElementById("grey-zone").style.display = "none";
+            video.innerHTML = ``;
         }
         
         return section;
