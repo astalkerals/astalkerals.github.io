@@ -120,3 +120,16 @@ body h2{
 #gallery3 a{
     color:var(--caption-text);
 }
+
+#outline{
+    width: 40%;
+    margin: auto;
+    background:var(--caption-background);
+    color:var(--caption-text);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.hidden{
+    display: none;
+}
