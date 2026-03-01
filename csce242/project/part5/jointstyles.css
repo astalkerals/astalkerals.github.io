@@ -8,13 +8,13 @@ header{
     text-align: center;
 }
 
-body {
+body {    
+    background-image: url("../homepage/images/ai-background-darker.png");
     font-family: 'Playfair Display', serif;
     color: var(--caption-background);
-    background: var(--background-edges);
 }
 #content{
-    background-image: url("../homepage/images/ai-background-darker.png");
+    background: transparent;
     width: 80%;
     margin: auto;
     object-fit:contain;

@@ -38,12 +38,16 @@ class Song {
 
         const hideModal = () => {
             modalText.classList.add("hidden");
-            video.classList.add("hidden"); 
+            video.classList.add("hidden");
+            modalText.classList.remove("visible");
+            video.classList.remove("visible");  
         }
 
         const showModal = () => {
             modalText.classList.remove("hidden");
             video.classList.remove("hidden"); 
+            modalText.classList.add("visible");
+            video.classList.add("visible"); 
         }
 
         hideModal();
@@ -109,10 +113,10 @@ class Song {
 }
 
 //Youtube codes
-const buttercupCode = `<iframe width=100% height=100% src="https://www.youtube.com/embed/ng_MgcBXifI?si=jAYq7Jj44wPLizCB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
-const lovinCode = `<iframe width=100% height=100% src="https://www.youtube.com/embed/L7__ayX3ESo?si=6sRPOUS-UUNuRtD_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
-const worryCode = `<iframe width=100% height=100% src="https://www.youtube.com/embed/7SiM1P4_2Fg?si=7XcmU0JTcvzZCTOW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
-const motherlodeCode = `<iframe width=100% height=100% src="https://www.youtube.com/embed/MBlpfXLQLvU?si=K56YslP5oSoNLmdc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
+const buttercupCode = `<iframe src="https://www.youtube.com/embed/ng_MgcBXifI?si=jAYq7Jj44wPLizCB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
+const lovinCode = `<iframe src="https://www.youtube.com/embed/L7__ayX3ESo?si=6sRPOUS-UUNuRtD_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
+const worryCode = `<iframe src="https://www.youtube.com/embed/7SiM1P4_2Fg?si=7XcmU0JTcvzZCTOW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
+const motherlodeCode = `<iframe src="https://www.youtube.com/embed/MBlpfXLQLvU?si=K56YslP5oSoNLmdc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
 
 const songs = [];
 songs.push(new Song("Build Me Up Buttercup","The Foundations","Build Me Up Buttercup",1968,"Soul","images/buttercupcover.jpg",buttercupCode));
