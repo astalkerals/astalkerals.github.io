@@ -61,6 +61,8 @@ ol{
     color:#478F52;
     padding: 8px 8px;
     margin: 5px;
+    justify-content: center;
+    text-align: center;
 }
 
 #projects p{
