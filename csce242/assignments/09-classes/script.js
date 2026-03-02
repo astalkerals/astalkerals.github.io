@@ -114,7 +114,7 @@ class Song {
 }
 
 //Youtube codes
-const buttercupCode = `<iframe src="https://www.youtube.com/embed/ng_MgcBXifI?si=jAYq7Jj44wPLizCB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
+const buttercupCode = `<iframe src="https://www.youtube.com/embed/1eMsDMBPDe4?si=SrgQuh7mP6sbbEr6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
 const lovinCode = `<iframe src="https://www.youtube.com/embed/L7__ayX3ESo?si=6sRPOUS-UUNuRtD_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
 const worryCode = `<iframe src="https://www.youtube.com/embed/7SiM1P4_2Fg?si=7XcmU0JTcvzZCTOW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
 const motherlodeCode = `<iframe src="https://www.youtube.com/embed/MBlpfXLQLvU?si=K56YslP5oSoNLmdc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
