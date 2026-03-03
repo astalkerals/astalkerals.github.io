@@ -14,8 +14,30 @@ const showFish = async() => {
         fishListDiv.append(section);
 
         const h3 = document.createElement("h3");
-        h3.innerHTML = fish.name;
+        h3.innerHTML = fish.title;
         section.appendChild(h3);
+
+        const pLength = document.createElement("p");
+        pLength.innerHTML = `Length: ${fish.length}`;
+        section.appendChild(pLength);
+
+        const h4 = document.createElement("h4");
+        h4.innerHTML = "Colors:";
+        section.append(h4);
+
+        const ul = document.createElement("ul");
+        section.append(ul);
+
+        //loop through the colors
+        fish.colors.forEach((color)=>{
+            const li = document.createElement("li");
+            li.innerHTML = color;
+            ul.append(li);
+        });
+
+        const img = document.createElement("img");
+        section.prepend(img);
+        img.src = `https://portiaportia.github.io/json/${fish.img}`;
     });
 };
 
