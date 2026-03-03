@@ -1,22 +1,22 @@
-const getShoes = async() => {
-    const url = "https://portiaportia.github.io/json/shoes.json";
+const getFish = async() => {
+    const url = "https://portiaportia.github.io/json/fish.json";
     const response = await fetch(url);
     return response.json();
 };
 
-const showShoes = async() => {
-    const shoes = await getShoes();
-    const shoeListDiv = document.getElementById("shoe-list");
+const showFish = async() => {
+    const fish = await getFish();
+    const fishListDiv = document.getElementById("fish-list");
 
-    shoes.forEach((shoe) => {
+    fish.forEach((fish) => {
         const section = document.createElement("section");
-        section.classList.add("shoe");
-        shoeListDiv.append(section);
+        section.classList.add("fish");
+        fishListDiv.append(section);
 
         const h3 = document.createElement("h3");
-        h3.innerHTML = shoe.name;
+        h3.innerHTML = fish.name;
         section.appendChild(h3);
     });
 };
 
-showShoes();
+showFish();
