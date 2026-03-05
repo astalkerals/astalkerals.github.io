@@ -60,6 +60,7 @@ ol{
     justify-content: center;
     text-align: center;
     min-width: 300px;
+    min-height: 200px;
 }
 
 #projects p{
