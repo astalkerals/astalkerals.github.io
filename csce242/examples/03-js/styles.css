@@ -128,3 +128,11 @@ table th{
     background-color: #390594;
     color: white;
 }
+
+#map{
+    width: 100%;
+}
+
+#contact-us label{
+    display: block;
+}
