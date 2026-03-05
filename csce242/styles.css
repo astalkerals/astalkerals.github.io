@@ -59,6 +59,7 @@ ol{
     margin: 5px;
     justify-content: center;
     text-align: center;
+    min-width: 300px;
 }
 
 #projects p{
