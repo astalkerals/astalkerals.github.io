@@ -28,7 +28,7 @@ const showChars = async() => {
         liBackground.innerHTML = char.general-background;
         ul.appendChild(liBackground);
 
-
+    
     })
 }
 
