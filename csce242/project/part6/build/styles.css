@@ -133,3 +133,7 @@ body h2{
 .hidden{
     display: none;
 }
+
+p{
+    text-align: center;
+}
