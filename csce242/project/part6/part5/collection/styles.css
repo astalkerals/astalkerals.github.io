@@ -112,3 +112,30 @@ body h2{
     color:var(--caption-text);
     padding-top: 55%;
 }
+
+.characters section{
+    min-width: 200px;
+    background: var(--caption-background);
+    color: var(--caption-text);
+}
+
+.characters ul{
+    margin-left: none;
+}
+
+.characters li{
+    list-style-type: none;
+}
+
+.characters img{
+    width: 100%;
+}
+
+@media (min-width: 768px){
+    .characters{
+        display: flex;
+    }
+    .characters section{
+        flex:1;
+    }
+}
