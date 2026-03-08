@@ -22,7 +22,7 @@ const showChars = async() => {
         img.src = url + char.imgsrc;
 
         const ul = document.createElement("ul");
-        section.appendChild("ul");
+        section.appendChild(ul);
 
         const liOccupation = document.createElement("li");
         liOccupation.innerHTML = "Occupation: " + char.occupation;

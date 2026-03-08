@@ -115,6 +115,7 @@ body h2{
 
 .characters section{
     min-width: 200px;
+    max-width: 500px;
     background: var(--caption-background);
     color: var(--caption-text);
 }
@@ -128,7 +129,7 @@ body h2{
 }
 
 .characters img{
-    width: 100%;
+    width: 30%;
 }
 
 @media (min-width: 768px){
