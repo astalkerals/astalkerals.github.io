@@ -1,0 +1,55 @@
+#textboxes{
+    width: 85%;
+    margin: auto;
+}
+
+#textbox1, #textbox2{
+    width: 100%;
+    background: white;
+    height: 60px;
+}
+
+p, li{
+    font-size: 120%;
+}
+
+#gallery1{
+    width: 85%;
+    margin: auto;
+}
+
+#gallery1 section {
+    border-radius: 20px;
+    overflow: hidden;
+    background: var(--caption-background);
+    color: var(--caption-text);
+    text-align: center;
+    margin: 10px;
+    max-height: 240px;
+    position:relative;
+    aspect-ratio: 4/3;
+}
+
+#gallery1 img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center bottom;
+    
+}
+
+#gallery1 a{
+    color:var(--caption-text);
+}
+
+.label{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    box-sizing:border-box;
+    background:var(--caption-background);
+    text-align: center;
+    width:100%;
+    margin: auto;
+    align-items:center;
+    padding-top:5px;
+}
