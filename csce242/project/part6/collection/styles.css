@@ -113,30 +113,46 @@ body h2{
     padding-top: 55%;
 }
 
+.characters h3{
+    text-align: center;
+}
+
 .characters section{
-    min-width: 200px;
-    max-width: 500px;
     background: var(--caption-background);
     color: var(--caption-text);
+    justify-content: center;
+    max-width: 30%;
+    margin: 20px;
+    border-radius: 20px;
 }
 
 .characters ul{
     margin-left: none;
+    width: 70%;
 }
 
 .characters li{
     list-style-type: none;
+    padding-bottom: 5px;
 }
 
-.characters img{
-    width: 30%;
+.imgCon img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.imgCon{
+    position: relative;
+    max-height: 280px;
+    overflow: hidden;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 @media (min-width: 768px){
     .characters{
         display: flex;
-    }
-    .characters section{
-        flex:1;
+        flex-wrap: wrap;
     }
 }

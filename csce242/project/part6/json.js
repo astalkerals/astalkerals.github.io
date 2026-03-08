@@ -10,15 +10,18 @@ const showChars = async() => {
 
     characters.forEach((char) => {
         const section = document.createElement("section");
-        section.classList.add("characters");
+        //section.classList.add("characters");
         characterDiv.append(section);
 
         const h3 = document.createElement("h3");
         h3.innerHTML = char.name;
         section.appendChild(h3);
 
+        const imgCon = document.createElement("div");
         const img = document.createElement("img");
-        section.prepend(img);
+        imgCon.append(img);
+        imgCon.classList.add("imgCon");
+        section.prepend(imgCon);
         img.src = url + char.imgsrc;
 
         const ul = document.createElement("ul");
@@ -29,15 +32,15 @@ const showChars = async() => {
         ul.appendChild(liOccupation);
 
         const liBackground = document.createElement("li");
-        liBackground.innerHTML = "General Background " + char.generalBackground;
+        liBackground.innerHTML = "General Background: " + char.generalBackground;
         ul.appendChild(liBackground);
 
         const liPersonality = document.createElement("li");
-        liPersonality.innerHTML = "Personality " + char.personality;
+        liPersonality.innerHTML = "Personality: " + char.personality;
         ul.appendChild(liPersonality);
 
         const liRTD = document.createElement("li");
-        liRTD.innerHTML = "Relation to Deceased " + char.relationToDeceased;
+        liRTD.innerHTML = "Relation to Deceased: " + char.relationToDeceased;
         ul.appendChild(liRTD);
 
         const liSusATT = document.createElement("li");
