@@ -17,21 +17,41 @@ const showChars = async() => {
         h3.innerHTML = char.name;
         section.appendChild(h3);
 
+        const img = document.createElement("img");
+        section.prepend(img);
+        img.src = url + char.imgsrc;
+
         const ul = document.createElement("ul");
         section.appendChild("ul");
 
         const liOccupation = document.createElement("li");
-        liOccupation.innerHTML = char.occupation;
+        liOccupation.innerHTML = "Occupation: " + char.occupation;
         ul.appendChild(liOccupation);
 
         const liBackground = document.createElement("li");
-        liBackground.innerHTML = char.general-background;
+        liBackground.innerHTML = "General Background " + char.generalBackground;
         ul.appendChild(liBackground);
 
-    
+        const liPersonality = document.createElement("li");
+        liPersonality.innerHTML = "Personality " + char.personality;
+        ul.appendChild(liPersonality);
+
+        const liRTD = document.createElement("li");
+        liRTD.innerHTML = "Relation to Deceased " + char.relationToDeceased;
+        ul.appendChild(liRTD);
+
+        const liSusATT = document.createElement("li");
+        liSusATT.innerHTML = "Suspicious Attributes: " + char.suspiciousAttributes;
+        ul.appendChild(liOccupation);
+
+        const liSecret = document.createElement("li");
+        liSecret.innerHTML = "Biggest Secret: " + char.biggestSecret;
+        ul.appendChild(liSecret);
     })
 }
 
+
+showChars();
 /*const showFish = async() => {
     const fish = await getFish();
     const fishListDiv = document.getElementById("fish-list");
