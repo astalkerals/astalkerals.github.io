@@ -1,6 +1,6 @@
+const url = "https://astalkerals.github.io/csce242/jsons/";
 const getChars = async() => {
-    const url = "https://astalkerals.github.io/tree/main/csce242/jsons";
-    const response = await fetch(url);
+    const response = await fetch(url + "characters.json");
     return response.json();
 };
 
@@ -47,8 +47,8 @@ const showChars = async() => {
         const liSecret = document.createElement("li");
         liSecret.innerHTML = "Biggest Secret: " + char.biggestSecret;
         ul.appendChild(liSecret);
-    })
-}
+    });
+};
 
 
 showChars();
