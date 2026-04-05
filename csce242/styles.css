@@ -82,6 +82,10 @@ img{
     height: 150px;
 }
 
+#final-links{
+    line-height: 1.5;
+}
+
 @media (min-width: 768px){
     .columns{
         display:flex;
